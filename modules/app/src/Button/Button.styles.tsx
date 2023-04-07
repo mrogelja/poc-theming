@@ -1,6 +1,5 @@
 import { css } from '@linaria/core';
 
-
 export const styles = {
   root: css`
     cursor: pointer;
@@ -13,11 +12,10 @@ export const styles = {
 
     @media (prefers-color-scheme: light) {
       background-color: #f9f9f9;
-      color: black;
-      font-size: var(--color-primary);
+      color: var(--color-primary);
     }
   `,
   countLabel: css`
-    color: white;
+    color: red;
   `,
 };
