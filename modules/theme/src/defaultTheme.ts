@@ -1,6 +1,13 @@
 import { Theme } from './Theme';
 
 export const defaultTheme: Theme = {
+  background: {
+    color: {
+      0: "red",
+      1: "white",
+      2: "white"
+    }
+  },
   color: {
     primary: '#42a5f5',
     secondary: '#ba68c8',

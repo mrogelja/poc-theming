@@ -1,18 +1,14 @@
 
-import { css } from '@linaria/core';
+import { createTheme, injectTheme } from '@tdms/theme';
 import { Button } from './Button/Button';
+import { styles } from './App.styles';
 
-const theme = css`
-  --color-primary: #69a17b;
-`;
-
-const theme2 = css`
-  --color-primary: #8513e2;
-`;
+const theme = createTheme();
+injectTheme(theme);
 
 function App() {
   return (
-    <div className={theme2}>
+    <div className={styles.root}>
       <Button />
     </div>
   );
