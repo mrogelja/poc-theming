@@ -13,6 +13,6 @@
     "typescript": "^5.0.2"
   },
   "stackblitz": {
-    "startCommand": "pnpm --filter @tdms/app run dev"
+    "startCommand": "pnpm --filter @poc/app run dev"
   }
 }

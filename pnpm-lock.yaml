@@ -23,7 +23,8 @@ importers:
       '@linaria/react': ^4.3.6
       '@linaria/stylelint-config-standard-linaria': ^4.1.5
       '@linaria/vite': ^4.2.9
-      '@tdms/theme': workspace:^1.0.0
+      '@poc/components': workspace:^1.0.0
+      '@poc/theme': workspace:^1.0.0
       '@types/react': ^18.0.28
       '@types/react-dom': ^18.0.11
       '@vitejs/plugin-react': ^3.1.0
@@ -36,7 +37,8 @@ importers:
     dependencies:
       '@linaria/core': 4.2.8
       '@linaria/react': 4.3.6_react@18.2.0
-      '@tdms/theme': link:../theme
+      '@poc/components': link:../components
+      '@poc/theme': link:../theme
       postcss: 8.4.21
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
@@ -49,6 +51,17 @@ importers:
       stylelint: 14.16.1
       typescript: 5.0.2
       vite: 4.2.1
+
+  modules/components:
+    specifiers:
+      '@linaria/core': ^4.2.8
+      deepmerge: 4.3.1
+      react: ^18.2.0
+    dependencies:
+      '@linaria/core': 4.2.8
+      deepmerge: 4.3.1
+    devDependencies:
+      react: 18.2.0
 
   modules/theme:
     specifiers:
@@ -2058,6 +2071,7 @@ packages:
     resolution: {integrity: sha512-vOO5XhmVj/1XQR9NQ1UPq6qvMYL7QFJU57J5fKBKBKxp17uDt5PgxFDb4A2nEiXhr1qQs4x0F5+66hVVw4ruNw==}
     engines: {node: '>=12'}
     hasBin: true
+    requiresBuild: true
     optionalDependencies:
       '@esbuild/android-arm': 0.17.14
       '@esbuild/android-arm64': 0.17.14

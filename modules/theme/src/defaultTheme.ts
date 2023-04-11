@@ -3,9 +3,9 @@ import { Theme } from './Theme';
 export const defaultTheme: Theme = {
   background: {
     color: {
-      0: "red",
-      1: "white",
-      2: "white"
+      0: "#2C444C",
+      1: "#243C44",
+      2: "#1C343B"
     }
   },
   color: {

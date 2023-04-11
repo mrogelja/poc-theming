@@ -1,6 +1,6 @@
 
-import { createTheme, injectTheme } from '@tdms/theme';
-import { Button } from './Button/Button';
+import { createTheme, injectTheme } from '@poc/theme';
+import { Button } from '@poc/components';
 import { styles } from './App.styles';
 
 const theme = createTheme();

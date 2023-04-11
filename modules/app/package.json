@@ -1,5 +1,5 @@
 {
-  "name": "@tdms/app",
+  "name": "@poc/app",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -15,7 +15,8 @@
   "dependencies": {
     "@linaria/core": "^4.2.8",
     "@linaria/react": "^4.3.6",
-    "@tdms/theme": "workspace:^1.0.0",
+    "@poc/theme": "workspace:^1.0.0",
+    "@poc/components": "workspace:^1.0.0",
     "postcss": "^8.4.21",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
